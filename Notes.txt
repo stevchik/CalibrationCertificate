@@ -1,0 +1,16 @@
+((P2X - R4X)/( R5X - R4X)) * (R5Y - R4Y) + RY4
+
+1PSI = BAR * 14.504
+
+Preassure - hard coded
+
+Calibration Range - Result/Input/Number/Value (today in bar - may be psi later)
+Sensitiviet - Result/Result/Scalar/Number/Value (today in pC/bar - may be psi later)
+Linerality - Result/Result/Scalar/Number/Value
+
+Sensor Temp - Result/Condition/Scalar/NUmber
+Sensitivity Change - ???
+
+Comments??
+
+
