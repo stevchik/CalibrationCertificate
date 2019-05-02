@@ -8,7 +8,7 @@ namespace CalibrationCertificate
 {
     public static class PdfGenerator
     {
-        private static decimal PCI_CONVERTER = 14.504M;
+        //private static decimal PCI_CONVERTER = 14.504M;
         public static void GeneratePdf(UnitUnderTest unit, string fileName, int pressureFrom, int pressureIncrement)
         {
             LocalReport report = new LocalReport();
@@ -83,7 +83,7 @@ namespace CalibrationCertificate
                 pointPrev = point;
 
                 point = p;
-                real = point.X * PCI_CONVERTER;
+                real = point.X;// * PCI_CONVERTER;
 
                 if (realPrev <= plan && plan < real)
                 {
